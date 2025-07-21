@@ -7,10 +7,10 @@ echo ">>> Starting Outline Companion Service Installation <<<"
 
 # --- Configuration ---
 # Replace this with the RAW URL of your companion_api.py file on GitHub/Gist
-API_SCRIPT_URL="https://gist.githubusercontent.com/YOUR_USERNAME/YOUR_GIST_ID/raw/companion_api.py"
+API_SCRIPT_URL="https://raw.githubusercontent.com/aungkyaw000/ol_expired_add/refs/heads/main/companion_api.py"
 
 # Replace this with the RAW URL of your check_expirations.py file on GitHub/Gist
-CHECKER_SCRIPT_URL="https://gist.githubusercontent.com/YOUR_USERNAME/YOUR_GIST_ID/raw/check_expirations.py"
+CHECKER_SCRIPT_URL="https://raw.githubusercontent.com/aungkyaw000/ol_expired_add/refs/heads/main/check_expirations.py"
 
 SERVICE_DIR="/opt/outline_companion"
 SERVICE_FILE="/etc/systemd/system/outline-companion.service"
