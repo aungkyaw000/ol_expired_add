@@ -60,4 +60,6 @@ def remove_expiration(key_id):
 
 if __name__ == '__main__':
     # The API will only be accessible from the server itself (localhost) for security.
-    app.run(host='127.0.0.1', port=5500)
+    # app.run(host='127.0.0.1', port=5500)
+    app.run(host='0.0.0.0', port=5500)
+
